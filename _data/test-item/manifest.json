@@ -1,0 +1,31 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://benwbrum.github.io/aapb-test/test-item/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "test item" ] },
+    "items": [
+      {
+        "id": "https://benwbrum.github.io/aapb-test/test-item/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 240.0,
+        "items": [
+          {
+            "id": "https://benwbrum.github.io/aapb-test/test-item/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://benwbrum.github.io/aapb-test/test-item/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://americanarchive.org/media/cpb-aacip_15-80ht7n4v",
+                    "duration": 240.0
+                },
+                "target": "https://benwbrum.github.io/aapb-test/test-item/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
